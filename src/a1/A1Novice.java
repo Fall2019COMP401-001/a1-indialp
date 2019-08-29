@@ -15,7 +15,7 @@ public class A1Novice {
 			String lastName = scan.next();
 			int totalItems = scan.nextInt();
 			
-			double totalCost = 0;
+			double totalCost = 0.00;
 			
 			for (int w=0; w<totalItems; w++) {
 			int numItems = scan.nextInt();
@@ -23,11 +23,10 @@ public class A1Novice {
 			double itemCost = scan.nextDouble();
 			double totalPrice = numItems*itemCost;
 			
-			totalCost = totalCost + totalPrice;
+			totalCost = (totalCost + totalPrice);
 				
 			}
-			
-			System.out.println(firstName.charAt(0) + ". " + lastName + ": " + (totalCost) );
+			System.out.println(firstName.charAt(0) + ". " + lastName + ": " + String.format("%.2f", totalCost));
 		}
 		
 		
@@ -35,4 +34,3 @@ public class A1Novice {
 	}
 	
 }
- 
