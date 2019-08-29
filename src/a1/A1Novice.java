@@ -27,7 +27,7 @@ public class A1Novice {
 				
 			}
 			
-			System.out.println(firstName.charAt(0) + ". " + lastName + " " + (totalCost) );
+			System.out.println(firstName.charAt(0) + ". " + lastName + ": " + (totalCost) );
 		}
 		
 		
